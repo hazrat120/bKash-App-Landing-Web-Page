@@ -753,6 +753,9 @@ html {
 .communication-right {
   margin-top: 100px;
 }
+.communication-right img {
+  border-radius: 20px;
+}
 /*========Faq part css=======*/
 #faq {
   padding-top: 92px;
