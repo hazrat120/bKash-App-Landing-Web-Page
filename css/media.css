@@ -568,9 +568,13 @@
     -o-transform: scale(0.8);
   }
   .navbar-nav {
-    background-color: #372e95;
+    background-color: #e2136dc6;
     padding: 20px;
     margin-top: 15px;
+    border-radius: 20px;
+  }
+  .nav-link {
+    padding: 0;
   }
   .nav-item {
     padding-right: 0px;
@@ -586,6 +590,10 @@
   }
   .sticky-menu .nav-item {
     padding-bottom: 0px;
+  }
+  .banner-btn a {
+    border-radius: 4px;
+    padding: 15px 25px;
   }
   /*========Banner part css=======*/
   #banner {
@@ -613,6 +621,9 @@
   }
   .custom-shape-divider-bottom-1615658124 svg {
     width: calc(323% + 1.3px);
+  }
+  .screen-banner-slider {
+    padding: 0px 6px;
   }
   /*========Feature part css=======*/
   #feature {

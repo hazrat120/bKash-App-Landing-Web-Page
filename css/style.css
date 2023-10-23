@@ -61,6 +61,7 @@ html {
   font-size: 0;
 }
 .nav-item {
+  border-radius: 20px;
   padding-right: 20px;
   padding-left: 20px;
   padding-top: 15px;
@@ -86,7 +87,9 @@ html {
 .navbar-expand-lg .navbar-nav .active .nav-link {
   color: #fff;
 }
-
+.nav-ul {
+  gap: 10px;
+}
 /*========Banner part css=======*/
 #banner {
   background: linear-gradient(
@@ -735,20 +738,19 @@ html {
   font-size: 16px;
   text-align: center;
   text-transform: capitalize;
-  background: linear-gradient(
-    to left,
-    rgba(226, 19, 109, 0.903),
-    rgba(226, 19, 109, 0.895),
-    rgba(226, 19, 109, 0.921),
-    rgba(226, 19, 109, 0.925),
-    rgba(226, 19, 109, 0.922)
-  );
+  background-color: #e2136e;
+  transition: all linear 0.4s;
+  border: 2px solid #e2136e;
   color: #fff;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
+}
+.read-left a:hover {
+  background: #fff;
+  color: #e2136e;
 }
 .communication-right {
   margin-top: 100px;
@@ -877,11 +879,11 @@ html {
 .team-overlay {
   background-image: linear-gradient(
     45deg,
-    rgba(226, 19, 109, 0.903),
-    rgba(226, 19, 109, 0.895),
-    rgba(226, 19, 109, 0.921),
-    rgba(226, 19, 109, 0.925),
-    rgba(226, 19, 109, 0.922)
+    rgb(226 19 109 / 82%),
+    rgb(226 19 109 / 79%),
+    rgb(226 19 109 / 79%),
+    rgb(226 19 109 / 79%),
+    rgb(226 19 109 / 84%)
   );
   opacity: 0;
   transform-origin: bottom;
@@ -1053,11 +1055,17 @@ textarea {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
+  border: 1px solid #e2136e;
+  transition: all linear 0.4s;
   color: #fff;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
+}
+.form-btn button:hover {
+  background-color: #fff;
+  color: #e2136e;
 }
 button:focus {
   outline: none;
