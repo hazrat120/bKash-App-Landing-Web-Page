@@ -432,7 +432,7 @@ html {
   padding-bottom: 100px;
 }
 .main-counterup {
-  border-right: 1px solid #ddd;
+  border-right: 1px solid #e2136e;
 }
 .mid {
   border-right: none;
@@ -496,7 +496,8 @@ html {
   -moz-transition: 0.3s;
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
-  border: 1px solid #ddd;
+  padding: 2px;
+  border: 2px solid #fff;
   border-radius: 40px;
   -webkit-border-radius: 40px;
   -moz-border-radius: 40px;
@@ -753,10 +754,22 @@ html {
   color: #e2136e;
 }
 .communication-right {
-  margin-top: 100px;
+  position: relative;
+  margin: 100px 0 0 50px;
+  background-color: #e2136e;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
 }
 .communication-right img {
   border-radius: 20px;
+}
+.communicate-muckup {
+  width: 55% !important;
+  position: absolute;
+  left: 50px;
+  bottom: 14px;
+  transform: rotate(-25deg);
 }
 /*========Faq part css=======*/
 #faq {
@@ -1118,7 +1131,7 @@ button:focus {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 24px;
-  color: #fff;
+  color: #e2136e;
 }
 .main-footer-list {
   margin-top: 18px;
