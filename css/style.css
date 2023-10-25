@@ -189,11 +189,11 @@ html {
 }
 .screen-banner-slider {
   padding: 5px 6px;
-  border-radius: 55px;
-  -webkit-border-radius: 55px;
-  -moz-border-radius: 55px;
-  -ms-border-radius: 55px;
-  -o-border-radius: 55px;
+  border-radius: 62px;
+  -webkit-border-radius: 62px;
+  -moz-border-radius: 62px;
+  -ms-border-radius: 62px;
+  -o-border-radius: 62px;
   overflow: hidden;
 }
 .banner-right-phone {
@@ -260,7 +260,7 @@ html {
   position: relative;
   width: 100%;
   height: 100%;
-  border-radius: 20px;
+  border-radius: 10px;
   box-shadow: 0 10px 20px rgb(0 0 0 / 20%);
 }
 
@@ -363,7 +363,7 @@ html {
       rgba(226, 19, 109, 0.786),
       rgba(226, 19, 109, 0.784)
     ),
-    url(../images/static-banner.png);
+    url(../images/Bkash\ Thumline.jpg);
   background-attachment: fixed;
   background-position: top;
   background-repeat: no-repeat;
@@ -504,6 +504,7 @@ html {
   font-size: 35px;
   font-weight: 700;
   text-transform: uppercase;
+  color: #222;
 }
 .main-counterup p {
   font-family: "Roboto", sans-serif;
@@ -662,15 +663,16 @@ html {
   padding-right: 200px;
   line-height: 1.8;
 }
-.appora-lists {
+.bkash-lists {
   padding-top: 10px;
 }
-.appora-lists ul {
+.bkash-lists ul {
   padding-left: 0;
 }
 .main-introduce i {
   line-height: 30px;
   font-size: 20px;
+  margin-right: 10px;
   color: #e2136e;
 }
 .main-introduce p {
