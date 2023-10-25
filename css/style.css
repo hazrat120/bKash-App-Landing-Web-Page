@@ -484,6 +484,11 @@ html {
 .main-counterup {
   border-right: 1px solid #e2136e;
 }
+.main-counterup:nth-child(1),
+.main-counterup:nth-child(3) {
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
 .mid {
   border-right: none;
 }
@@ -516,6 +521,7 @@ html {
   margin: 0;
 }
 /*========Screenshots part css=======*/
+
 #screenshot {
   padding-top: 90px;
   padding-bottom: 50px;
