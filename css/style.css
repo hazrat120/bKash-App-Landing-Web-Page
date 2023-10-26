@@ -566,7 +566,7 @@ html {
 .peoples-image-main {
   width: 200px;
   height: 200px;
-  border-radius: 48% 52% 46% 54% / 52% 57% 43% 48%;
+  border-radius: 78% 22% 77% 23% / 20% 79% 21% 80%;
   /* -webkit-border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
   -moz-border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
   -ms-border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
@@ -856,10 +856,14 @@ html {
   font-size: 20px;
   margin: 0 5px;
 }
+.for-paddign {
+  padding: 5px;
+}
 .sub-team {
   margin: 0 auto;
   width: 250px;
   height: 250px;
+  border: 2px solid #e2136d;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
