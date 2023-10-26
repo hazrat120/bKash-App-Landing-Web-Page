@@ -723,10 +723,12 @@
   }
   .custom-shape-divider-bottom-1615988814 svg {
     width: calc(313% + 460.3px);
+    height: 130px;
   }
   .pulse-main {
     margin: 20px auto;
   }
+
   /*========counter-up part css=======*/
   #counter {
     padding-top: 30px;
@@ -808,7 +810,7 @@
     text-align: center;
   }
   .communication-right {
-    margin: 85px 0 0 0;
+    margin: 85px 0 0 70px;
     width: 275px;
     height: 275px;
   }
