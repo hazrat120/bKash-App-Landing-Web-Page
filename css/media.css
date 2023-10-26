@@ -54,6 +54,10 @@
     -ms-transform: translateX(-50%) scale(0.8);
     -o-transform: translateX(-50%) scale(0.8);
   }
+  /* =========Over Viewe======== */
+  .custom-shape-divider-bottom-1615988814 svg {
+    height: 130px;
+  }
   /*========People part css=======*/
   #people {
     padding-top: 25px;
@@ -95,6 +99,9 @@
     font-weight: 600;
     text-transform: capitalize;
     color: #fff;
+  }
+  .communication-right {
+    margin: 100px 0 0 -28px;
   }
   /*========Feature part css=======*/
   .header {
@@ -180,6 +187,9 @@
   .accordion-button {
     font-size: 18px;
   }
+  .offset-lg-3 {
+    margin-left: 15%;
+  }
   /*========Team part css=======*/
   #team {
     padding-top: 60px;
@@ -216,9 +226,12 @@
     -o-transform: scale(0.8);
   }
   .navbar-nav {
-    background-color: #372e95;
+    background-color: #e2136d;
     padding: 20px;
     margin-top: 15px;
+  }
+  .nav-link {
+    padding: 0;
   }
   .nav-item {
     padding-right: 0px;
@@ -238,12 +251,14 @@
   /*========Banner part css=======*/
   #banner {
     padding-top: 115px;
+    padding-bottom: 130px;
   }
   .banner-content h1 {
     font-size: 45px;
   }
   .screen-banner-slider {
-    padding: 9px 6px;
+    padding: 0px 8px;
+    border-radius: 50px;
   }
   .banner-content p {
     padding-right: 0px;
@@ -271,12 +286,24 @@
   .overview-text p {
     font-size: 16px;
   }
+  .custom-shape-divider-bottom-1615988814 svg {
+    height: 110px;
+  }
+  .screenshot-frame {
+    width: 201px;
+    height: 425px;
+    top: 37px;
+  }
   /*========Screenshots part css=======*/
   #screenshot {
     padding-top: 42px;
     padding-bottom: 42px;
   }
-  /*========People part css=======*/
+  .screen-main .owl-item img {
+    border-radius: 38px 38px 50px 50px !important;
+  }
+  /*===
+  =====People part css=======*/
   #people {
     padding-top: 25px;
     padding-bottom: 25px;
@@ -299,6 +326,9 @@
   }
   .left-communicate-header h2 {
     padding-right: 75px;
+  }
+  .communication-right {
+    margin: 102px 0 0 150px;
   }
   /*========Faq part css=======*/
   #faq {
@@ -338,6 +368,14 @@
   .left-header p {
     padding-right: 0px;
   }
+  /*========Footer part css====== */
+  .footer-items:last-child {
+    margin-top: 20px;
+  }
+  #footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -350,9 +388,12 @@
     -o-transform: scale(0.8);
   }
   .navbar-nav {
-    background-color: #372e95;
+    background-color: #e2136d;
     padding: 20px;
     margin-top: 15px;
+  }
+  .nav-link {
+    padding: 0;
   }
   .nav-item {
     padding-right: 0px;
@@ -397,11 +438,8 @@
     width: calc(323% + 1.3px);
   }
   .screen-banner-slider {
-    border-radius: 128px;
-    -webkit-border-radius: 128px;
-    -moz-border-radius: 128px;
-    -ms-border-radius: 128px;
-    -o-border-radius: 128px;
+    padding: 7px 16px;
+    border-radius: 90px;
   }
   /*========Feature part css=======*/
   #feature {
@@ -442,13 +480,26 @@
     padding-top: 30px;
     padding-bottom: 30px;
   }
-  .main-counterup {
-    border-right: none;
+
+  .main-counterup:nth-child(1),
+  .main-counterup:nth-child(3) {
+    margin-right: 0px;
+    margin-bottom: 20px;
   }
   /*========Screenshots part css=======*/
   #screenshot {
     padding-top: 42px;
     padding-bottom: 42px;
+  }
+  .screenshot-frame {
+    width: 260px;
+    height: 500px;
+  }
+  .screen-main .owl-item img {
+    width: 300px;
+    height: 600px;
+    margin: auto;
+    border-radius: 60px !important;
   }
   /*========People part css=======*/
   #people {
@@ -497,7 +548,7 @@
     text-align: center;
   }
   .communication-right {
-    margin-top: 65px;
+    margin-top: 120px;
   }
   /*========Faq part css=======*/
   #faq {
@@ -523,8 +574,8 @@
   }
   /*========Team part css=======*/
   #team {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 40px;
+    padding-bottom: 30px;
   }
   /*========Contact part css=======*/
   #contact {
@@ -548,6 +599,9 @@
   .form-btn {
     text-align: center;
   }
+  .social-info i {
+    margin-bottom: 10px;
+  }
   /*========Footer part css=======*/
   #footer {
     padding-top: 60px;
@@ -555,6 +609,13 @@
   }
   .footer-items {
     margin: 20px 0;
+  }
+  .justify-content-center {
+    justify-content: start !important;
+  }
+  /*====== Copyright part css======= */
+  .copyright-inner p {
+    width: 56%;
   }
 }
 
@@ -691,7 +752,10 @@
     height: 551px;
   }
   .screen-main .owl-item img {
-    border-radius: 50px !important;
+    width: 300px;
+    height: 655px;
+    margin: auto;
+    border-radius: 60px !important;
   }
   #screenshot {
     padding-top: 42px;
