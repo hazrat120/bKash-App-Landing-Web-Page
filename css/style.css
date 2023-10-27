@@ -26,7 +26,7 @@ html {
   left: 0;
   width: 100%;
   z-index: 999;
-  background-color: #e2136d;
+  background-color: transparent;
   transition: all linear 0.3s;
   -webkit-transition: all linear 0.3s;
   -moz-transition: all linear 0.3s;
