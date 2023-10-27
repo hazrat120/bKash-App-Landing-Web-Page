@@ -1203,16 +1203,16 @@ button:focus {
   -o-transform: translate(-50%, -50%);
 }
 
-.r-bounds {
+/* .r-bounds {
   fill: none;
-}
+} */
 
-.svg-preloader {
+/* .svg-preloader {
   height: 100px;
   width: 100px;
-}
+} */
 
-.g-circles {
+/* .g-circles {
   fill: #fff;
 }
 
@@ -1223,9 +1223,9 @@ button:focus {
   animation: 1.2s linear infinite;
   -webkit-animation-name: colors, opacity;
   animation-name: colors, opacity;
-}
+} */
 
-.g-circle:nth-child(12n + 1) {
+/* .g-circle:nth-child(12n + 1) {
   -webkit-transform: rotate(-30deg) translate(10px, 10px) scale(0.85);
   transform: rotate(-30deg) translate(10px, 10px) scale(0.85);
   -webkit-animation-delay: -0.1s;
@@ -1426,4 +1426,4 @@ button:focus {
     -webkit-transform: scale(0.5);
     transform: scale(0.5);
   }
-}
+} */
