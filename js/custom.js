@@ -7,6 +7,7 @@ $(function () {
     event.preventDefault();
     $("html,body").animate({ scrollTop: $(this.hash).offset().top - 80 }, 1000);
   });
+
   $(window).on("scroll", function () {
     var scrollTop = $(this).scrollTop();
     scrollLink.each(function () {
@@ -17,10 +18,12 @@ $(function () {
       }
     });
   });
+
   //Back-to-top js
   $(".back-to-top").on("click", function () {
     $("html,body").animate({ scrollTop: 0 }, 1000);
   });
+
   //sticky-menu & Back-to-top visibility
   $(window).on("scroll", function () {
     var main = $(this).scrollTop();
@@ -35,6 +38,7 @@ $(function () {
       $(".back-to-top").fadeOut(300);
     }
   });
+
   //phone-banner-slider js
   $(".screen-banner-slider").slick({
     slidesToShow: 1,
@@ -44,6 +48,7 @@ $(function () {
     arrows: false,
     pauseOnHover: false,
   });
+
   //Counter-up js
   $(".counter").counterUp({
     delay: 15,
@@ -91,6 +96,7 @@ $(function () {
     speed: 1500,
     asNavFor: ".peoples-feedback",
   });
+
   $(".peoples-feedback").slick({
     slidesToShow: 1,
     slidesToScroll: 1,
