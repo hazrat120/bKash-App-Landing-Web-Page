@@ -1,6 +1,12 @@
 $(function () {
   "use strict";
   //scroll-spy & Smooth-scrolling
+
+  //preloader-js
+  $(window).on("load", function () {
+    $(".preloader").delay(100).fadeOut(100);
+  });
+
   var scrollLink = $(".scroll-link");
   $(scrollLink).on("click", function (event) {
     event.preventDefault();
@@ -139,10 +145,7 @@ $(function () {
       },
     ],
   });
-  //preloader-js
-  $(window).on("load", function () {
-    $(".preloader").delay(200).fadeOut(200);
-  });
+
   //wow-js
   new WOW().init();
 });
