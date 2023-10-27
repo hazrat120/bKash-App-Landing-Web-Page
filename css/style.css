@@ -852,6 +852,7 @@ html {
   margin: 0 12px;
 }
 .team-social i {
+  align-items: center !important;
   color: #fff;
   font-size: 20px;
   margin: 0 5px;
