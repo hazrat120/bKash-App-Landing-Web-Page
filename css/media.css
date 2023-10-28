@@ -339,6 +339,7 @@
     margin-top: -80px;
   }
   .phone-left img {
+    width: 200px;
     transform: scale(0.7);
     -webkit-transform: scale(0.7);
     -moz-transform: scale(0.7);
@@ -375,6 +376,9 @@
   #footer {
     padding-top: 60px;
     padding-bottom: 60px;
+  }
+  .main--links {
+    padding-left: 0;
   }
 }
 
@@ -474,6 +478,7 @@
   }
   .custom-shape-divider-bottom-1615988814 svg {
     width: calc(313% + 460.3px);
+    height: 115px;
   }
   /*========counter-up part css=======*/
   #counter {
@@ -556,14 +561,16 @@
     padding-bottom: 45px;
   }
   .phone-left {
-    margin-top: -80px;
+    margin-top: -50px;
+    margin-bottom: 50px;
   }
   .phone-left img {
-    transform: scale(0.7);
+    margin-top: 50px;
+    /* transform: scale(0.7);
     -webkit-transform: scale(0.7);
     -moz-transform: scale(0.7);
     -ms-transform: scale(0.7);
-    -o-transform: scale(0.7);
+    -o-transform: scale(0.7); */
   }
   .accordion-button {
     font-size: 16px;
@@ -619,9 +626,15 @@
   .justify-content-center {
     justify-content: start !important;
   }
+  .main--links {
+    padding-left: 0;
+  }
   /*====== Copyright part css======= */
   .copyright-inner p {
     width: 56%;
+  }
+  .copyright-social-icons a {
+    margin: 0 4px;
   }
 }
 
@@ -691,6 +704,7 @@
   }
   .custom-shape-divider-bottom-1615658124 svg {
     width: calc(323% + 1.3px);
+    height: 85px;
   }
   .screen-banner-slider {
     padding: 7px 10px;
@@ -729,7 +743,7 @@
   }
   .custom-shape-divider-bottom-1615988814 svg {
     width: calc(313% + 460.3px);
-    height: 130px;
+    height: 100px;
   }
   .pulse-main {
     margin: 20px auto;
@@ -816,7 +830,7 @@
     text-align: center;
   }
   .communication-right {
-    margin: 85px 0 0 70px;
+    margin: 98px 0 0 50px;
     width: 275px;
     height: 275px;
   }
@@ -826,9 +840,11 @@
     padding-bottom: 45px;
   }
   .phone-left {
-    margin-top: -80px;
+    margin-top: -40px;
   }
   .phone-left img {
+    margin-left: 50px;
+    margin-bottom: 20px;
     transform: scale(0.7);
     -webkit-transform: scale(0.7);
     -moz-transform: scale(0.7);
@@ -888,6 +904,9 @@
   .footer-items {
     text-align: center;
     margin: 20px 0;
+  }
+  .main--links {
+    padding-left: 0;
   }
   .copyright-inner {
     padding-top: 15px;
