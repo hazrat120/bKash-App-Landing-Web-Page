@@ -715,13 +715,14 @@ html {
   padding-bottom: 92px;
 }
 .phone-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 0 !important;
 }
 .phone-left img {
-  margin-left: 80px;
   width: 280px !important;
   height: 100%;
-  border-radius: 10px;
 }
 .phone-left {
   animation: flow 5s infinite;

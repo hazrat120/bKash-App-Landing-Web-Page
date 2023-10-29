@@ -328,7 +328,8 @@
     padding-right: 75px;
   }
   .communication-right {
-    margin: 102px 0 0 150px;
+    margin: 0 auto;
+    margin-top: 150px;
   }
   /*========Faq part css=======*/
   #faq {
@@ -553,7 +554,8 @@
     text-align: center;
   }
   .communication-right {
-    margin-top: 120px;
+    margin: 0 auto;
+    margin-top: 130px;
   }
   /*========Faq part css=======*/
   #faq {
@@ -561,16 +563,19 @@
     padding-bottom: 45px;
   }
   .phone-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: -50px;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
   }
   .phone-left img {
-    margin-top: 50px;
-    /* transform: scale(0.7);
+    /* margin-top: 50px; */
+    transform: scale(0.7);
     -webkit-transform: scale(0.7);
     -moz-transform: scale(0.7);
     -ms-transform: scale(0.7);
-    -o-transform: scale(0.7); */
+    -o-transform: scale(0.7);
   }
   .accordion-button {
     font-size: 16px;
@@ -830,7 +835,8 @@
     text-align: center;
   }
   .communication-right {
-    margin: 98px 0 0 50px;
+    margin: 0 auto;
+    margin-top: 98px;
     width: 275px;
     height: 275px;
   }
@@ -840,10 +846,12 @@
     padding-bottom: 45px;
   }
   .phone-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: -40px;
   }
   .phone-left img {
-    margin-left: 50px;
     margin-bottom: 20px;
     transform: scale(0.7);
     -webkit-transform: scale(0.7);
